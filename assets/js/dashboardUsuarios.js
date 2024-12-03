@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function () {
             if (!respuesta.ok) throw new Error("Error al obtener los usuarios");
             const usuarios = await respuesta.json();
 
-            usuariosContainer.innerHTML = ""; // Limpiar el contenedor
+            usuariosContainer.innerHTML = ""; 
 
             usuarios.forEach(usuario => {
                 const tarjeta = document.createElement("div");

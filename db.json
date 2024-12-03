@@ -1,7 +1,7 @@
 {
   "usuarios": [
     {
-      "id": 1,
+      "id": "1",
       "username": "usuario1",
       "nombre": "Juan",
       "apellidos": "Pérez",
@@ -19,16 +19,7 @@
       "password": "samuel703"
     },
     {
-      "id": 3,
-      "username": "carlos22",
-      "nombre": "Carlos",
-      "apellidos": "Lopez Martínez",
-      "correo": "carlos.lopez@example.com",
-      "cedula": "1012345678",
-      "password": "carlos456"
-    },
-    {
-      "id": 4,
+      "id": "4",
       "username": "ana.brown",
       "nombre": "Ana",
       "apellidos": "Brown Taylor",
@@ -37,7 +28,7 @@
       "password": "ana789"
     },
     {
-      "id": 5,
+      "id": "5",
       "username": "pedro123",
       "nombre": "Pedro",
       "apellidos": "Ramirez Fernández",
@@ -46,7 +37,7 @@
       "password": "pedro123"
     },
     {
-      "id": 6,
+      "id": "6",
       "username": "laura87",
       "nombre": "Laura",
       "apellidos": "Vargas Moreno",
@@ -55,7 +46,7 @@
       "password": "laura321"
     },
     {
-      "id": 7,
+      "id": "7",
       "username": "joseR",
       "nombre": "José",
       "apellidos": "Rodríguez Ruiz",
@@ -64,7 +55,7 @@
       "password": "jose123"
     },
     {
-      "id": 8,
+      "id": "8",
       "username": "dianaP",
       "nombre": "Diana",
       "apellidos": "Pérez Gutiérrez",
@@ -73,7 +64,7 @@
       "password": "diana456"
     },
     {
-      "id": 9,
+      "id": "9",
       "username": "manuel88",
       "nombre": "Manuel",
       "apellidos": "Gómez Torres",
@@ -82,7 +73,7 @@
       "password": "manuel789"
     },
     {
-      "id": 10,
+      "id": "10",
       "username": "adrianaM",
       "nombre": "Adriana",
       "apellidos": "Martínez Castro",
@@ -91,7 +82,7 @@
       "password": "adriana123"
     },
     {
-      "id": 11,
+      "id": "11",
       "username": "robertoC",
       "nombre": "Roberto",
       "apellidos": "Cabrera López",
@@ -100,7 +91,7 @@
       "password": "roberto321"
     },
     {
-      "id": 12,
+      "id": "12",
       "username": "sofiaG",
       "nombre": "Sofía",
       "apellidos": "García Mendoza",
@@ -109,7 +100,7 @@
       "password": "sofia456"
     },
     {
-      "id": 13,
+      "id": "13",
       "username": "andresL",
       "nombre": "Andrés",
       "apellidos": "Luna Espinosa",
@@ -118,7 +109,7 @@
       "password": "andres789"
     },
     {
-      "id": 14,
+      "id": "14",
       "username": "camilaS",
       "nombre": "Camila",
       "apellidos": "Sánchez López",
@@ -127,7 +118,7 @@
       "password": "camila123"
     },
     {
-      "id": 15,
+      "id": "15",
       "username": "danielP",
       "nombre": "Daniel",
       "apellidos": "Pérez Castro",
@@ -136,7 +127,7 @@
       "password": "daniel321"
     },
     {
-      "id": 16,
+      "id": "16",
       "username": "paulaR",
       "nombre": "Paula",
       "apellidos": "Rojas Fernández",
@@ -145,7 +136,7 @@
       "password": "paula456"
     },
     {
-      "id": 17,
+      "id": "17",
       "username": "marcoV",
       "nombre": "Marco",
       "apellidos": "Villa Ruiz",
@@ -154,7 +145,7 @@
       "password": "marco789"
     },
     {
-      "id": 18,
+      "id": "18",
       "username": "angelicaT",
       "nombre": "Angélica",
       "apellidos": "Torres Sánchez",
@@ -163,7 +154,7 @@
       "password": "angelica123"
     },
     {
-      "id": 19,
+      "id": "19",
       "username": "fernandoC",
       "nombre": "Fernando",
       "apellidos": "Castillo Mendoza",
@@ -172,7 +163,7 @@
       "password": "fernando321"
     },
     {
-      "id": 20,
+      "id": "20",
       "username": "carolinaM",
       "nombre": "Carolina",
       "apellidos": "Moreno Espinosa",
@@ -181,7 +172,7 @@
       "password": "carolina456"
     },
     {
-      "id": 21,
+      "id": "21",
       "username": "lucasG",
       "nombre": "Lucas",
       "apellidos": "González Ruiz",
@@ -190,7 +181,7 @@
       "password": "lucas789"
     },
     {
-      "id": 22,
+      "id": "22",
       "username": "martaL",
       "nombre": "Marta",
       "apellidos": "López Sánchez",
@@ -199,7 +190,7 @@
       "password": "marta123"
     },
     {
-      "id": 23,
+      "id": "23",
       "username": "rafaelM",
       "nombre": "Rafael",
       "apellidos": "Martínez Gutiérrez",
@@ -208,7 +199,7 @@
       "password": "rafael321"
     },
     {
-      "id": 24,
+      "id": "24",
       "username": "luisT",
       "nombre": "Luis",
       "apellidos": "Torres González",
@@ -217,7 +208,7 @@
       "password": "luis456"
     },
     {
-      "id": 25,
+      "id": "25",
       "username": "alejandraV",
       "nombre": "Alejandra",
       "apellidos": "Villa Mendoza",
@@ -226,7 +217,7 @@
       "password": "alejandra789"
     },
     {
-      "id": 26,
+      "id": "26",
       "username": "victorC",
       "nombre": "Víctor",
       "apellidos": "Castro Ruiz",
@@ -235,7 +226,7 @@
       "password": "victor123"
     },
     {
-      "id": 27,
+      "id": "27",
       "username": "gloriaM",
       "nombre": "Gloria",
       "apellidos": "Mendoza López",
@@ -244,24 +235,38 @@
       "password": "gloria321"
     },
     {
-      "id": 28,
+      "id": "28",
       "username": "alejandroR",
       "nombre": "Alejandro",
       "apellidos": "Ramírez Gutiérrez",
       "correo": "alejandro.ramirez@example.com",
       "cedula": "55667786"
+    },
+    {
+      "id": "5a44",
+      "username": "joanzapata",
+      "nombre": "joan",
+      "apellidos": "zapata",
+      "correo": "joanzapata55@gmail.com",
+      "cedula": "1011395564",
+      "password": "12345"
     }
   ],
   "beneficios": [
     {
-      "id": "9ca1",
+      "id": 1,
       "nombre": "Beneficio 1",
-      "descripcion": "Descripcion del Beneficio 1"
+      "descripcion": "Descripcion del benficio 2"
     },
     {
-      "id": "1ca5",
+      "id": 2,
       "nombre": "Beneficio 2",
-      "descripcion": "Descripcion del beneficio 2\n"
+      "descripcion": "Descripcion del beneficio 2"
+    },
+    {
+      "id": 3,
+      "nombre": "Beneficio 3",
+      "descripcion": "Descripcion del benficio 3"
     }
   ]
 }

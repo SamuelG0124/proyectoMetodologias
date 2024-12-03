@@ -34,8 +34,8 @@ function addBenefitToTable(beneficio) {
     <td>${beneficio.nombre}</td>
     <td>${beneficio.descripcion}</td>
     <td>
-      <button class="btn btn-warning" onclick="editBenefit(${beneficio.id})">Editar</button>
-      <button class="btn btn-danger" onclick="deleteBenefit(${beneficio.id})">Eliminar</button>
+      <button class="btn btn-warning" onclick="editBenefit('${beneficio.id}')">Editar</button>
+      <button class="btn btn-danger" onclick="deleteBenefit('${beneficio.id}')">Eliminar</button>
     </td>
   `;
 
@@ -44,12 +44,17 @@ function addBenefitToTable(beneficio) {
 
 // Crear un nuevo beneficio
 saveBenefitButton.addEventListener("click", async () => {
-  const nuevoBeneficio = {
-    nombre: benefitNameInput.value,
-    descripcion: benefitDescriptionInput.value,
-  };
-
   try {
+    // Obtener el próximo ID
+    const nextId = await getNextId();
+
+    // Crear el nuevo objeto beneficio
+    const nuevoBeneficio = {
+      id: nextId,
+      nombre: benefitNameInput.value,
+      descripcion: benefitDescriptionInput.value,
+    };
+
     const response = await fetch(API_URL, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
@@ -67,20 +72,47 @@ saveBenefitButton.addEventListener("click", async () => {
   }
 });
 
+// Función para obtener el próximo ID disponible
+async function getNextId() {
+  try {
+    const response = await fetch(API_URL);
+    const beneficios = await response.json();
+
+    if (beneficios.length === 0) {
+      return 1; // Si no hay beneficios, empieza en 1
+    }
+
+    // Calcular el ID más alto
+    const maxId = Math.max(...beneficios.map((b) => parseInt(b.id, 10)));
+    return maxId + 1; // Incrementar el ID
+  } catch (error) {
+    console.error("Error obteniendo el próximo ID:", error);
+    return 1; // Valor por defecto
+  }
+}
+
+// Eliminar un beneficio
 // Eliminar un beneficio
 async function deleteBenefit(id) {
-  if (confirm("¿Estás seguro de eliminar este beneficio?")) {
+  if (confirm('¿Estás seguro de que quieres eliminar este beneficio?')) {
     try {
+      // Hacer una solicitud DELETE al servidor
       const response = await fetch(`${API_URL}/${id}`, { method: "DELETE" });
 
       if (response.ok) {
-        loadBenefits();
+        // Eliminar la fila correspondiente en la tabla
+        const row = document.querySelector(`button[onclick="deleteBenefit('${id}')"]`).closest("tr");
+        row.remove();
+        console.log(`Beneficio con ID ${id} eliminado correctamente.`);
+      } else {
+        console.error(`Error al eliminar beneficio con ID ${id}.`);
       }
     } catch (error) {
       console.error("Error eliminando beneficio:", error);
     }
   }
 }
+
 
 // Editar un beneficio
 async function editBenefit(id) {
@@ -95,6 +127,7 @@ async function editBenefit(id) {
     saveBenefitButton.textContent = "Actualizar";
     saveBenefitButton.onclick = async () => {
       const beneficioActualizado = {
+        id: id,
         nombre: benefitNameInput.value,
         descripcion: benefitDescriptionInput.value,
       };
