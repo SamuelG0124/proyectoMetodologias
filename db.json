@@ -254,19 +254,9 @@
   ],
   "beneficios": [
     {
-      "id": 1,
-      "nombre": "Beneficio 1",
-      "descripcion": "Descripcion del benficio 2"
-    },
-    {
       "id": 2,
-      "nombre": "Beneficio 2",
+      "nombre": "beneficio 2",
       "descripcion": "Descripcion del beneficio 2"
-    },
-    {
-      "id": 3,
-      "nombre": "Beneficio 3",
-      "descripcion": "Descripcion del benficio 3"
     }
   ]
 }
