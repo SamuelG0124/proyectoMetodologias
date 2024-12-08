@@ -1,0 +1,272 @@
+{
+  "usuarios": [
+    {
+      "id": "1",
+      "username": "usuario1",
+      "nombre": "Juan",
+      "apellidos": "Pérez",
+      "correo": "juan.perez@example.com",
+      "cedula": "123456789",
+      "password": "123456"
+    },
+    {
+      "id": "0347",
+      "username": "Samuel24Giraldo",
+      "nombre": "samuel",
+      "apellidos": "Giraldo Lozano",
+      "correo": "giraldolozanosamuel@gmail.com",
+      "cedula": "1027660895",
+      "password": "samuel703"
+    },
+    {
+      "id": "3",
+      "username": "carlos22",
+      "nombre": "Carlos",
+      "apellidos": "Lopez Martínez",
+      "correo": "carlos.lopez@example.com",
+      "cedula": "1012345678",
+      "password": "carlos456"
+    },
+    {
+      "id": "4",
+      "username": "ana.brown",
+      "nombre": "Ana",
+      "apellidos": "Brown Taylor",
+      "correo": "ana.brown@example.com",
+      "cedula": "876543210",
+      "password": "ana789"
+    },
+    {
+      "id": "5",
+      "username": "pedro123",
+      "nombre": "Pedro",
+      "apellidos": "Ramirez Fernández",
+      "correo": "pedro.ramirez@example.com",
+      "cedula": "234567890",
+      "password": "pedro123"
+    },
+    {
+      "id": "6",
+      "username": "laura87",
+      "nombre": "Laura",
+      "apellidos": "Vargas Moreno",
+      "correo": "laura.vargas@example.com",
+      "cedula": "345678901",
+      "password": "laura321"
+    },
+    {
+      "id": "7",
+      "username": "joseR",
+      "nombre": "José",
+      "apellidos": "Rodríguez Ruiz",
+      "correo": "jose.rodriguez@example.com",
+      "cedula": "456789012",
+      "password": "jose123"
+    },
+    {
+      "id": "8",
+      "username": "dianaP",
+      "nombre": "Diana",
+      "apellidos": "Pérez Gutiérrez",
+      "correo": "diana.perez@example.com",
+      "cedula": "567890123",
+      "password": "diana456"
+    },
+    {
+      "id": "9",
+      "username": "manuel88",
+      "nombre": "Manuel",
+      "apellidos": "Gómez Torres",
+      "correo": "manuel.gomez@example.com",
+      "cedula": "678901234",
+      "password": "manuel789"
+    },
+    {
+      "id": "10",
+      "username": "adrianaM",
+      "nombre": "Adriana",
+      "apellidos": "Martínez Castro",
+      "correo": "adriana.martinez@example.com",
+      "cedula": "789012345",
+      "password": "adriana123"
+    },
+    {
+      "id": "11",
+      "username": "robertoC",
+      "nombre": "Roberto",
+      "apellidos": "Cabrera López",
+      "correo": "roberto.cabrera@example.com",
+      "cedula": "890123456",
+      "password": "roberto321"
+    },
+    {
+      "id": "12",
+      "username": "sofiaG",
+      "nombre": "Sofía",
+      "apellidos": "García Mendoza",
+      "correo": "sofia.garcia@example.com",
+      "cedula": "901234567",
+      "password": "sofia456"
+    },
+    {
+      "id": "13",
+      "username": "andresL",
+      "nombre": "Andrés",
+      "apellidos": "Luna Espinosa",
+      "correo": "andres.luna@example.com",
+      "cedula": "012345678",
+      "password": "andres789"
+    },
+    {
+      "id": "14",
+      "username": "camilaS",
+      "nombre": "Camila",
+      "apellidos": "Sánchez López",
+      "correo": "camila.sanchez@example.com",
+      "cedula": "112233445",
+      "password": "camila123"
+    },
+    {
+      "id": "15",
+      "username": "danielP",
+      "nombre": "Daniel",
+      "apellidos": "Pérez Castro",
+      "correo": "daniel.perez@example.com",
+      "cedula": "223344556",
+      "password": "daniel321"
+    },
+    {
+      "id": "16",
+      "username": "paulaR",
+      "nombre": "Paula",
+      "apellidos": "Rojas Fernández",
+      "correo": "paula.rojas@example.com",
+      "cedula": "334455667",
+      "password": "paula456"
+    },
+    {
+      "id": "17",
+      "username": "marcoV",
+      "nombre": "Marco",
+      "apellidos": "Villa Ruiz",
+      "correo": "marco.villa@example.com",
+      "cedula": "445566778",
+      "password": "marco789"
+    },
+    {
+      "id": "18",
+      "username": "angelicaT",
+      "nombre": "Angélica",
+      "apellidos": "Torres Sánchez",
+      "correo": "angelica.torres@example.com",
+      "cedula": "556677889",
+      "password": "angelica123"
+    },
+    {
+      "id": "19",
+      "username": "fernandoC",
+      "nombre": "Fernando",
+      "apellidos": "Castillo Mendoza",
+      "correo": "fernando.castillo@example.com",
+      "cedula": "667788990",
+      "password": "fernando321"
+    },
+    {
+      "id": "20",
+      "username": "carolinaM",
+      "nombre": "Carolina",
+      "apellidos": "Moreno Espinosa",
+      "correo": "carolina.moreno@example.com",
+      "cedula": "778899001",
+      "password": "carolina456"
+    },
+    {
+      "id": "21",
+      "username": "lucasG",
+      "nombre": "Lucas",
+      "apellidos": "González Ruiz",
+      "correo": "lucas.gonzalez@example.com",
+      "cedula": "889900112",
+      "password": "lucas789"
+    },
+    {
+      "id": "22",
+      "username": "martaL",
+      "nombre": "Marta",
+      "apellidos": "López Sánchez",
+      "correo": "marta.lopez@example.com",
+      "cedula": "990011223",
+      "password": "marta123"
+    },
+    {
+      "id": "23",
+      "username": "rafaelM",
+      "nombre": "Rafael",
+      "apellidos": "Martínez Gutiérrez",
+      "correo": "rafael.martinez@example.com",
+      "cedula": "001122334",
+      "password": "rafael321"
+    },
+    {
+      "id": "24",
+      "username": "luisT",
+      "nombre": "Luis",
+      "apellidos": "Torres González",
+      "correo": "luis.torres@example.com",
+      "cedula": "112233445",
+      "password": "luis456"
+    },
+    {
+      "id": "25",
+      "username": "alejandraV",
+      "nombre": "Alejandra",
+      "apellidos": "Villa Mendoza",
+      "correo": "alejandra.villa@example.com",
+      "cedula": "223344556",
+      "password": "alejandra789"
+    },
+    {
+      "id": "26",
+      "username": "victorC",
+      "nombre": "Víctor",
+      "apellidos": "Castro Ruiz",
+      "correo": "victor.castro@example.com",
+      "cedula": "334455667",
+      "password": "victor123"
+    },
+    {
+      "id": "27",
+      "username": "gloriaM",
+      "nombre": "Gloria",
+      "apellidos": "Mendoza López",
+      "correo": "gloria.mendoza@example.com",
+      "cedula": "445566778",
+      "password": "gloria321"
+    },
+    {
+      "id": "28",
+      "username": "alejandroR",
+      "nombre": "Alejandro",
+      "apellidos": "Ramírez Gutiérrez",
+      "correo": "alejandro.ramirez@example.com",
+      "cedula": "55667786"
+    }
+  ],
+  "beneficios": [
+    {
+      "id": "9ca1",
+      "nombre": "Beneficio 1",
+      "descripcion": "Descripcion del Beneficio 1"
+    },
+    {
+      "nombre": "Beneficio 2",
+      "descripcion": "Descripcion del beneficio 3\n",
+      "id": "1ca5"
+    },
+    {
+      "id": "a17a",
+      "nombre": "asda",
+      "descripcion": "fasdfd"
+    }
+  ]
+}
